@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * File: functions.c
+ * Authers: Basma Shaban Ali and
+ */
+
 /************************* PRINT CHAR *************************/
 
 /**
