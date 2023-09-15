@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * File: get_flags.c
+ * Authers: Basma Shaban Ali and
+ */
+
 /************************* PRINT CHAR *************************/
 
 /**
