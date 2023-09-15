@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * File: write_handlers.c
+ * Authers: Basma Shaban Ali and
+ */
+
 /************************* WRITE HANDLE *************************/
 /**
  * handle_write_char - Prints a string
