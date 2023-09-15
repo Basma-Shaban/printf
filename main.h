@@ -1,3 +1,9 @@
+/**
+ * File: main.h
+ * Description: includes all prototypes and functions of the printf project
+ * Authers: Basma Shaban Ali and
+ */
+
 #ifndef MAIN_H
 #define MAIN_H
 #include <stdarg.h>
