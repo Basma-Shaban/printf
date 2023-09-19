@@ -2,7 +2,7 @@
 
 /**
  * File: functions2.c
- * Authers: Basma Shaban Ali and
+ * Authers: Basma Shaban Ali and Noran Ahmed
  */
 
 /****************** PRINT POINTER ******************/
