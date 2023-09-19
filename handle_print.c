@@ -2,7 +2,7 @@
 
 /**
  * File: handle_print.c
- * Authers: Basma Shaban Ali and
+ * Authers: Basma Shaban Ali and Noran Ahmed
  */
 
 /**
