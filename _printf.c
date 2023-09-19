@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * File: _printf.c
+ * File name: _printf.c
  * Authers: Basma Shaban Ali and Noran Ahmed
  */
 

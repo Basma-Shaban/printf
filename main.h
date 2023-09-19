@@ -1,11 +1,6 @@
-/**
- * File: main.h
- * Description: includes all prototypes and functions of the printf project
- * Authers: Basma Shaban Ali and Noran Ahmed
- */
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
-#ifndef MAIN_H
-#define MAIN_H
 #include <stdarg.h>
 #include <stdio.h>
 #include <unistd.h>
@@ -25,10 +20,16 @@
 #define S_SHORT 1
 
 /**
- * struct fmt - Struct op
+ * File name: main.h
+ * Description: includes all prototypes and functions of the printf project
+ * Authers: Basma Shaban Ali and Noran Ahmed
+ */
+
+/**
+ * struct fmt - Struct for defining a format and its associated function.
  *
  * @fmt: The format.
- * @fn: The function associated.
+ * @fn: The function associated with the format.
  */
 struct fmt
 {
@@ -120,4 +121,4 @@ int is_digit(char);
 long int convert_size_number(long int num, int size);
 long int convert_size_unsgnd(unsigned long int num, int size);
 
-#endif /* MAIN_H */
+#endif /* _MAIN_H_ */
