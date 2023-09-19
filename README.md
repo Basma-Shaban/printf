@@ -13,8 +13,7 @@ The prototype of this function is:  **int _printf(const char *format, ...);***
 This means that it has one mandatory format argument, and an extra number of arguments that can be none, or many.
 
 **Format of the format string**
-
-The format string is a character string starting and ending with double quotes. The format string is composed of zero or more directives; ordinary characters (not %), and conversion specifications, each of which results in fetching zero or more subsequent arguments. 
+The format string is a character string starting and ending with double quotes.The format string is composed of zero or more directives, ordinary characters (not %), and conversion specifications, each of which results in fetching zero or more subsequent arguments.
 
 Each conversion specification is introduced by the character **%** and ends with a **conversion specifier**. In between there may be (in this order):
 
