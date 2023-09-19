@@ -2,7 +2,7 @@
 
 /**
  * File: write_handlers.c
- * Authers: Basma Shaban Ali and
+ * Authers: Basma Shaban Ali and Noran Ahmed
  */
 
 /************************* WRITE HANDLE *************************/

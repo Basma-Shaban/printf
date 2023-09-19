@@ -1,7 +1,7 @@
 /**
  * File: main.h
  * Description: includes all prototypes and functions of the printf project
- * Authers: Basma Shaban Ali and
+ * Authers: Basma Shaban Ali and Noran Ahmed
  */
 
 #ifndef MAIN_H

@@ -2,7 +2,7 @@
 
 /**
  * File: get_size.c
- * Authers: Basma Shaban Ali and
+ * Authers: Basma Shaban Ali and Noran Ahmed
  */
 
 /**
