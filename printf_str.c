@@ -1,6 +1,9 @@
 #include "main.h"
 
 /**
+ * File: printf_str.c
+ * Authers: Basma Shaban Ali and
+ *
  * _strlen - Returns the lenght of a string.
  * @s: Type char pointer
  * Return: c.

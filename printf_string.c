@@ -1,6 +1,9 @@
 #include "main.h"
 
 /**
+ * File: printf_string.c
+ * Authers: Basma Shaban Ali and
+ *
  * printf_string - print a string.
  * @val: argumen t.
  * Return: the length of the string.

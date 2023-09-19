@@ -1,5 +1,9 @@
 #include "main.h"
+
 /**
+ * File: printf_exclusive_string.c
+ * Authers: Basma Shaban Ali and
+ *
  * printf_exclusive_string - print exclusuives string.
  * @val: argumen t.
  * Return: the length of the string.

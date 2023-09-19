@@ -1,6 +1,9 @@
 #include "main.h"
 
 /**
+ * File: printf_srev.c
+ * Authers: Basma Shaban Ali and
+ *
  * printf_srev - function that prints a str in reverse
  * @args: type struct va_arg where is allocated printf arguments
  *

@@ -1,6 +1,8 @@
 #include "main.h"
 
 /**
+ * File: printf_bin.c
+ * Authers: Basma Shaban Ali and
  * printf_bin - prints a binary number.
  * @val: arguments.
  * Return: 1.

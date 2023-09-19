@@ -1,6 +1,8 @@
 #include "main.h"
 
 /**
+ * File: printf_char.c
+ * Authers: Basma Shaban Ali and
  * printf_char - prints a char.
  * @val: arguments.
  * Return: 1.

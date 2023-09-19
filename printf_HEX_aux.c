@@ -1,6 +1,9 @@
 #include "main.h"
 
 /**
+ * File: printf_HEX_aux.c
+ * Authers: Basma Shaban Ali and
+ *
  * printf_HEX_aux - prints an hexgecimal number.
  * @num: number to print.
  * Return: counter.
