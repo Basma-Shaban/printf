@@ -6,7 +6,7 @@
  */
 
 /**
- * get_flags - Calculates active flags
+ * get_flags() - Calculates active flags for a format string.
  * @format: Formatted string in which to print the arguments
  * @i: take a parameter.
  * Return: Flags:

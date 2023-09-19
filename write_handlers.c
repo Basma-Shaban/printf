@@ -7,7 +7,7 @@
 
 /************************* WRITE HANDLE *************************/
 /**
- * handle_write_char - Prints a string
+ * handle_write_char() - Prints a single character to the console.
  * @c: char types.
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags.
