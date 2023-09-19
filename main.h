@@ -52,7 +52,10 @@ va_list list, char buffer[], int flags, int width, int precision, int size);
 
 /****************** FUNCTIONS ******************/
 
-/* Funtions to print chars and strings */
+/* Funtions to print chars and strings and percent
+ * @print_char: prints a character with format specifier %c
+ * @print_string: prints a string with format specifier %s
+ * @print_percent: prints a percent sign with format specifier %%*/
 int print_char(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 int print_string(va_list types, char buffer[],
@@ -60,7 +63,14 @@ int print_string(va_list types, char buffer[],
 int print_percent(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
-/* Functions to print numbers */
+/* Functions to print numbers
+ * @print_int: prints an integer with format specifier %i & %d
+ * @print_binary: prints a binary, custom specifier with format specifier %b
+ * @print_unsigned: prints unsigned integer with format specifier %u
+ * @print_octal: prints number in base 8 with format specifier %o
+ * @print_hexadecimal: prints hexadecimal in lowercase with format specifier %x
+ * @print_hexa_upper: prints hexadecimal inuppercase with format specifier %X
+ * @print_hexa: prints hexadecimal in lowercase & uppercase with format specifier %x & %X*/
 int print_int(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 int print_binary(va_list types, char buffer[],
@@ -77,11 +87,13 @@ int print_hexa_upper(va_list types, char buffer[],
 int print_hexa(va_list types, char map_to[],
 char buffer[], int flags, char flag_ch, int width, int precision, int size);
 
-/* Function to print non printable characters */
+/* Function to print non printable characters
+ * @print_non_printable: prints string, prints hex value of non visible characters with format specifier %S */
 int print_non_printable(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
-/* Funcion to print memory address */
+/* Funcion to print memory address
+ * @print_pointer: prints memory address with format specifier %p*/
 int print_pointer(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
@@ -91,11 +103,13 @@ int get_width(const char *format, int *i, va_list list);
 int get_precision(const char *format, int *i, va_list list);
 int get_size(const char *format, int *i);
 
-/*Function to print string in reverse*/
+/*Function to print string in reverse
+ * @print_reverse: prints string in reverse, custom specifier with format specifier %r*/
 int print_reverse(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
-/*Function to print a string in rot 13*/
+/*Function to print a string in rot 13
+ * @print_rot13string: print a string in rot 13, custom specifier with format specifier %R*/
 int print_rot13string(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
