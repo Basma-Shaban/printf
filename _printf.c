@@ -2,7 +2,7 @@
 
 /**
  * File: _printf.c
- * Authers: Basma Shaban Ali and
+ * Authers: Basma Shaban Ali and Noran Ahmed
  */
 
 void print_buffer(char buffer[], int *buff_ind);
