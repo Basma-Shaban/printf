@@ -26,7 +26,12 @@ typedef struct format
 {
 	char *id;
 	int (*f)();
-} convert_match;
+} convert_match m[] = {
+    {"%s", printf_string},
+    {"%c", printf_char},
+    {"%%", printf_percent},  // New specifier for %
+    // Rest of the specifiers...
+};
 
 int printf_percent(va_list val);
 int printf_pointer(va_list val);
