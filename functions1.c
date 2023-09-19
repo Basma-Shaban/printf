@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * File: functions1.c
+ * File name: functions1.c
  * Authers: Basma Shaban Ali and
  */
 
 /************************* PRINT UNSIGNED NUMBER *************************/
 /**
  * print_unsigned() - Prints an unsigned integer.
+ *
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -17,7 +18,7 @@
  * Return: Number of chars printed.
  */
 int print_unsigned(va_list types, char buffer[],
-	int flags, int width, int precision, int size)
+	int flags, int width, int precision, int size);
 {
 	int i = BUFF_SIZE - 2;
 	unsigned long int num = va_arg(types, unsigned long int);
