@@ -14,7 +14,7 @@ int _printf(const char * const format, ...)
 {
 	convert_match m[] = {
 		{"%s", printf_string}, {"%c", printf_char},
-		{"%%", printf_percent},
+		{"%%", printf_37},
 		{"%i", printf_int}, {"%d", printf_dec}, {"%r", printf_srev},
 		{"%R", printf_rot13}, {"%b", printf_bin}, {"%u", printf_unsigned},
 		{"%o", printf_oct}, {"%x", printf_hex}, {"%X", printf_HEX},
@@ -48,14 +48,4 @@ Here:
 	}
 	va_end(args);
 	return (len);
-}
-/**
- * printf_percent - Prints the '%' character.
- * @val: va_list for variadic arguments (not used in this function).
- * Return: Always returns 1.
- */
-int printf_percent(va_list val)
-{
-    _putchar('%');
-    return (1);
 }
