@@ -1,5 +1,5 @@
 int main()
 {
 	int i = 0;
-	char *c
+	char *c = "noran";
 }
