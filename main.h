@@ -1,23 +1,42 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
-
+/*
+ * This code includes the stdarg.h, stdio.h, and unistd.h header files.
+ * These header files contain definitions and declarations for various
+ * functions and macros that are used in the code.
+ */
 #include <stdarg.h>
 #include <stdio.h>
 #include <unistd.h>
 
 #define UNUSED(x) (void)(x)
+/*
+ * The UNUSED() macro is used to ignore the value of an expression.
+ */
 #define BUFF_SIZE 1024
+/*
+ * The BUFF_SIZE macro defines the size of
+ * the buffer that is used to store formatted output.
+ */
 
-/* FLAGS */
-#define F_MINUS 1
-#define F_PLUS 2
-#define F_ZERO 4
-#define F_HASH 8
-#define F_SPACE 16
+/*
+ * FLAGS This code defines five macros to represent the different flags
+ * that can be used with format specifiers in the printf() function.
+ */
 
-/* SIZES */
-#define S_LONG 2
-#define S_SHORT 1
+#define F_MINUS 1 /*(-)*/
+#define F_PLUS 2 /*(+)*/
+#define F_ZERO 4 /*(0)*/
+#define F_HASH 8 /*(#)*/
+#define F_SPACE 16 /*(" ")*/
+
+/*
+ * SIZES This code defines two macros to represent the different sizes
+ * that can be used with format specifiers in the printf() function.
+ */
+
+#define S_LONG 2 /*l-modifier*/
+#define S_SHORT 1 /*h-modifier*/
 
 /**
  * File name: main.h
@@ -32,6 +51,11 @@
  * @fn: The function associated with the format.
 */
 struct fmt
+/*
+ * This code defines a struct called fmt. This struct is used to
+ * store a format specifier and a pointer to the function
+ * that is associated with that format specifier.
+ */
 {
 	char fmt;
 	int (*fn)(va_list, char[], int, int, int, int);
@@ -45,10 +69,22 @@ struct fmt
  * @fm_t: The function associated.
 */
 typedef struct fmt fmt_t;
+/*
+ * This code defines a typedef for the fmt struct.
+ * This makes it easier to use the fmt struct in the code.
+ */
 
 int _printf(const char *format, ...);
+/*
+ * The _printf() function is
+ * a wrapper function for the printf() function.
+ */
 int handle_print(const char *fmt, int *i,
 va_list list, char buffer[], int flags, int width, int precision, int size);
+/*
+ * The handle_print() function is used to parse
+ * and format the output according to the format specifier provided.
+ */
 
 /**** the functions that we use ****/
 
