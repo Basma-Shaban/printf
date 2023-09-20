@@ -1,6 +1,6 @@
 void main()
 {
-	int h;
+int h;
 	char *c;
 
 }
