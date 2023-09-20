@@ -1,5 +1,6 @@
 void main()
 {
-int h;
-char *c;
+	int h;
+	char *c;
+
 }
